@@ -6,7 +6,7 @@
   }
 
 body{
-    background-color: #fefefe;
+    background-color: #f9f9f9;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -39,8 +39,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     height: 350px;
-    max-width: 350px;
-    padding: 20px;
+    width: 350px;
 }
 
 .informacoes__logo{
@@ -89,6 +88,15 @@ a{
 }
 
 @media screen and (min-width: 450px) {
+
+    .principal{
+        height: 80vh;
+    }
+
+    .informacoes{
+        background-color: white;
+        border: 1px solid rgb(219, 219, 219);
+    }
     
 }
 
