@@ -6,51 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <div>
-            <img src="./assets/images/phone.png" alt="Celular mostrando páginas do instagram">
-            <img src="./assets/images/screenshot1.png" alt="">
-            <img src="./assets/images/screenshot2.png" alt="">
-            <img src="./assets/images/screenshot3.png" alt="">
-            <img src="./assets/images/screenshot4.png" alt="">
-        </div>
-        <div>
-            <img src="./assets/images/logo-instagram.png" alt="Logo do instagram">
-            <img src="./assets/images/personal-photo.jpg" alt="Foto do perfil de mauriciomd5">
-            <a href="#">Continuar como mauriciomd5</a>
-            <div>Não é mauriciomd5? <a href="#">Trocar de conta</a></div>
-        </div>
-        
+        <section class="principal">
+            <div class="phone">
+                <img src="./assets/images/phone.png" alt="Celular mostrando páginas do instagram">
+                <img src="./assets/images/screenshot1.png" alt="">
+                <img src="./assets/images/screenshot2.png" alt="">
+                <img src="./assets/images/screenshot3.png" alt="">
+                <img src="./assets/images/screenshot4.png" alt="">
+            </div>
+            <div class="informacoes">
+                <img class="informacoes__logo" src="./assets/images/logo-instagram.png" alt="Logo do instagram">
+                <img class="informacoes__foto" src="./assets/images/personal-photo.jpg" alt="Foto do perfil de mauriciomd5">
+                <a class="informacoes__botao" href="#">Continuar como mauriciomd5</a>
+                <p class="informacoes__naoeh">
+                    Não é mauriciomd5?
+                    <a class="informacoes__trocar" href="#">Trocar de conta</a>
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <nav>
-            <ul>
-                <li><a href="#">Meta</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Carreiras</a></li>
-                <li><a href="#">Ajuda</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Privacidade</a></li>
-                <li><a href="#">Termos</a></li>
-                <li><a href="#">Principais contas</a></li>
-                <li><a href="#">Hashtags</a></li>
-                <li><a href="#">Localizações</a></li>
-                <li><a href="#">Instagram Lite</a></li>
+            <ul class="navbar">
+                <li><a class="navbar__links" href="#">Meta</a></li>
+                <li><a class="navbar__links" href="#">Sobre</a></li>
+                <li><a class="navbar__links" href="#">Blog</a></li>
+                <li><a class="navbar__links" href="#">Carreiras</a></li>
+                <li><a class="navbar__links" href="#">Ajuda</a></li>
+                <li><a class="navbar__links" href="#">API</a></li>
+                <li><a class="navbar__links" href="#">Privacidade</a></li>
+                <li><a class="navbar__links" href="#">Termos</a></li>
+                <li><a class="navbar__links" href="#">Principais contas</a></li>
+                <li><a class="navbar__links" href="#">Hashtags</a></li>
+                <li><a class="navbar__links" href="#">Localizações</a></li>
+                <li><a class="navbar__links" href="#">Instagram Lite</a></li>
             </ul>
         </nav>
         <nav>
-            <ul>
-                <li><a href="#">Dança</a></li>
-                <li><a href="#">Comida e bebida</a></li>
-                <li><a href="#">Casa e jardim</a></li>
-                <li><a href="#">Música</a></li>
-                <li><a href="#">Artes Visuais</a></li>
+            <ul class="navbar">
+                <li><a class="navbar__links" href="#">Dança</a></li>
+                <li><a class="navbar__links" href="#">Comida e bebida</a></li>
+                <li><a class="navbar__links" href="#">Casa e jardim</a></li>
+                <li><a class="navbar__links" href="#">Música</a></li>
+                <li><a class="navbar__links" href="#">Artes Visuais</a></li>
             </ul>
         </nav>
-        <p>Português (Brasil) ˅ © 2022 Instagram from Meta</p>
+        <div class="copyrights">
+            <span class="copyrights__texto">Português (Brasil) ˅</span>
+            <span class="copyrights__texto">© 2022 Instagram from Meta</span>
+        </div>
+        
     </footer>
 </body>
 </html>
