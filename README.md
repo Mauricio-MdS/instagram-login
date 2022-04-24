@@ -4,7 +4,7 @@
 
 * [Informação geral](#informação-geral)
 * [Tecnologias](#tecnologias)
-* [Lista de tarefas](#lista-de-tarefas)
+* [Resultado](#resultado)
 
 <br>
 
@@ -28,12 +28,10 @@ Projeto criado com:
 
 <br>
 
-## Lista de tarefas
+## Resultado
 
-- [X] HTML
-- [ ] CSS
-- [ ] Carrossel
+Veja como ficou:
 
-<!---
-Resultado
--->
+![Resultado da cópia da página do instagram com tela responsiva](./assets/images/readme/resultado.gif)
+
+Primeiramente foi feita a versão para smartfones devido a maior simplicidade. Depois foram adicionados os estilos para telas com mais de 450px e finalmente para telas com mais de 900px. Finalmente foi adicionado um carrossel com javascript.
