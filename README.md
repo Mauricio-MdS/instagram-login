@@ -12,7 +12,7 @@
 
 Desafio do curso de HTML & CSS da [DIO](https://www.dio.me/) para recriar a página de login do instagram. Utilizei como gabarito essa versão visitada em 24/04/2022: 
 
-![Demonstração da página do Instagram](./assets/images/gabarito.gif)
+![Demonstração da página do Instagram](./assets/images/readme/gabarito.gif)
 
 Existem três breakpoints de resolução na página. Na resolução maior, existe um carrossel de screenshots no telefone com quatro imagens.
 
