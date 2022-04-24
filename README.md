@@ -30,7 +30,7 @@ Projeto criado com:
 
 ## Lista de tarefas
 
-- [ ] HTML
+- [X] HTML
 - [ ] CSS
 - [ ] Carrossel
 
