@@ -109,13 +109,10 @@ a{
     }
 
     .phone__screenshot{
-        display: none;
-        left: 155px;
+        left: 156px;
         position: absolute;
         top:30px;
+        transition: opacity 1.5s ease-out;
     }
 
-    .screen1{
-        display:block;        
-    }
 }
