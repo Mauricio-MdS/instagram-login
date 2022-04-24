@@ -6,6 +6,7 @@
   }
 
 body{
+    align-content: center;
     background-color: #f9f9f9;
     box-sizing: border-box;
     display: flex;
@@ -13,10 +14,13 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     height: 100vh;
-    justify-content: space-between;
     margin: 0;
     padding: 36px;
     width: 100vw;
+}
+
+main{
+    flex-grow: 1;
 }
 
 a{
@@ -26,6 +30,7 @@ a{
 .principal{
     align-items: center;
     display: flex;
+    height: 100%;
     justify-content: space-around;
 }
 
@@ -89,10 +94,6 @@ a{
 
 @media screen and (min-width: 450px) {
 
-    .principal{
-        height: 80vh;
-    }
-
     .informacoes{
         background-color: white;
         border: 1px solid rgb(219, 219, 219);
@@ -101,5 +102,20 @@ a{
 }
 
 @media screen and (min-width: 900px) {
-    
+  
+    .phone{
+        display: block;
+        position: relative;
+    }
+
+    .phone__screenshot{
+        display: none;
+        left: 155px;
+        position: absolute;
+        top:30px;
+    }
+
+    .screen1{
+        display:block;        
+    }
 }
