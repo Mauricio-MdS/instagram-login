@@ -32,6 +32,8 @@ Projeto criado com:
 
 Veja como ficou:
 
+[https://mauricio-mds.github.io/instagram-login/](https://mauricio-mds.github.io/instagram-login/)
+
 ![Resultado da cópia da página do instagram com tela responsiva](./assets/images/readme/resultado.gif)
 
-Primeiramente foi feita a versão para smartphones devido a maior simplicidade. Depois foram adicionados os estilos para telas com mais de 450px e finalmente para telas com mais de 900px. Finalmente foi adicionado um carrossel com javascript.
+Primeiramente foi feita a versão para smartphones devido a maior simplicidade. Depois foram adicionados os estilos para telas com mais de 450px e para telas com mais de 900px. Finalmente foi adicionado um carrossel com javascript.
